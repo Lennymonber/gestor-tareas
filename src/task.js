@@ -10,7 +10,7 @@ export const addTask = (task) => {
     const newTask = {
         id: Date.now(),
         text: task,
-        complete: false,
+        completed: false,
     };
     tasks.push(newTask);
     localStorage.setItem("tasks", JSON.stringify(tasks));
@@ -18,16 +18,19 @@ export const addTask = (task) => {
 
     //funcion para eliminar una tarea
     export const deleteTasks = (id) => {
-        tasks = tasks.filter((tasks) => task.id !== parseInt(id));
+        
+        console.log(id)
+        tasks = tasks.filter((task) => task.id !== parseInt(id));
         localStorage.setItem("tasks", JSON.stringify(tasks));
 
     };
 
     //funcion para actualizar una tarea
     export const toggleTask = (id) =>{
+        
         tasks = tasks.map((task) => {
-            if(tasks.id === parseInt(id)) {
-                task.complete = !task.complete;
+            if(task.id === parseInt(id)) {
+                task.completed = !task.completed;
             }
             return task;
         });

@@ -3,7 +3,7 @@ const path  = require('path');
 module.exports = {
     mode:'development',
     entry: '/src/index.js', //punto de entrada de l aplicacion
-    ouput: {
+    output: {
         filename: 'bundle.js', //nombre del archivo de salida
         path: path.resolve(__dirname,'dist'),//carpeta de salida
     },
@@ -19,14 +19,14 @@ module.exports = {
                 use:{
                     loader:'babel-loader',//loader para llevar JS moderno a JS antiguo para que sea compatible con todos los navegadore
                      options: {
-                        presents:['@babel/preset-env']
+                        presets:['@babel/preset-env']
                     },
                 },
             },
         ],
     },
     devtool: 'source-map', //generar source maps para facilitar la depuracion
-    devserver: {
+    devServer: {
         static:{
            directory: path.resolve(__dirname, 'dist')
         },
