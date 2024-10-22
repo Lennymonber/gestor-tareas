@@ -111,8 +111,9 @@ var ___CSS_LOADER_EXPORT___ = _node_modules_css_loader_dist_runtime_api_js__WEBP
 ___CSS_LOADER_EXPORT___.push([module.id, `/* Estilos Generales*/
 
 body {
-    font-family: ariel, sans-serif;
-    background-color: #f4f4f4;
+
+    font-family:cursive;
+    background: #f4f4f4;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -141,15 +142,17 @@ input {
     width: 75%;
     padding: 8px;
     margin-right: 10px;
-    border: 1px, solid, #ddd;
+    border: 1px, solid, #19f0cc;
     border-radius: 3px;
+    font-family: cursive;
+
 }
 
 /*Estilos al boton*/
 button {
     padding: 5px, 8px;
-    background-color: #007bff;
-    color: white;
+    background-color: #06f5cd27;
+    color: rgb(100, 98, 98);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -175,10 +178,17 @@ li {
 /*estilos para cuando una tarea esta completada*/
 li.completed {
     text-decoration: line-through;
-    color: #888;
+    color: #e157b8;
     
 }
-`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,qBAAqB;;AAErB;IACI,8BAA8B;IAC9B,yBAAyB;IACzB,SAAS;IACT,UAAU;IACV,aAAa;IACb,aAAa;IACb,uBAAuB;IACvB,mBAAmB;;AAEvB;AACA,wCAAwC;AACxC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,sCAAsC;;AAE1C;;AAEA,6BAA6B;AAC7B;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA,oBAAoB;AACpB;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,wBAAwB;IACxB,kBAAkB;AACtB;;AAEA,mBAAmB;AACnB;IACI,iBAAiB;IACjB,yBAAyB;IACzB,YAAY;IACZ,YAAY;IACZ,kBAAkB;IAClB,eAAe;AACnB;;AAEA,sBAAsB;AACtB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,sCAAsC;AACtC;IACI,yBAAyB;IACzB,aAAa;IACb,qBAAqB;IACrB,gBAAgB;IAChB,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA,gDAAgD;AAChD;IACI,6BAA6B;IAC7B,WAAW;;AAEf","sourcesContent":["/* Estilos Generales*/\r\n\r\nbody {\r\n    font-family: ariel, sans-serif;\r\n    background-color: #f4f4f4;\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n}\r\n/* Estilos para el contenedor principal*/\r\n#app {\r\n    background-color: white;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 15px rgba(0, 0, 0,0.1);\r\n\r\n}\r\n\r\n/*Estilos para el formulario*/\r\nform {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos al Input*/\r\ninput {\r\n    width: 75%;\r\n    padding: 8px;\r\n    margin-right: 10px;\r\n    border: 1px, solid, #ddd;\r\n    border-radius: 3px;\r\n}\r\n\r\n/*Estilos al boton*/\r\nbutton {\r\n    padding: 5px, 8px;\r\n    background-color: #007bff;\r\n    color: white;\r\n    border: none;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/*Estilos de la Lista*/\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/*Estilos a los Elementos de la Lista*/\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 1px solid#ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/*estilos para cuando una tarea esta completada*/\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #888;\r\n    \r\n}\r\n"],"sourceRoot":""}]);
+
+h1 {
+    color: #19f0cc;
+    text-shadow:  1px 1px 2px black;
+    font-size: 50px;
+}
+
+`, "",{"version":3,"sources":["webpack://./src/styles.css"],"names":[],"mappings":"AAAA,qBAAqB;;AAErB;;IAEI,mBAAmB;IACnB,mBAAmB;IACnB,SAAS;IACT,UAAU;IACV,aAAa;IACb,aAAa;IACb,uBAAuB;IACvB,mBAAmB;;AAEvB;AACA,wCAAwC;AACxC;IACI,uBAAuB;IACvB,aAAa;IACb,kBAAkB;IAClB,sCAAsC;;AAE1C;;AAEA,6BAA6B;AAC7B;IACI,aAAa;IACb,8BAA8B;AAClC;;AAEA,oBAAoB;AACpB;IACI,UAAU;IACV,YAAY;IACZ,kBAAkB;IAClB,2BAA2B;IAC3B,kBAAkB;IAClB,oBAAoB;;AAExB;;AAEA,mBAAmB;AACnB;IACI,iBAAiB;IACjB,2BAA2B;IAC3B,uBAAuB;IACvB,YAAY;IACZ,kBAAkB;IAClB,eAAe;AACnB;;AAEA,sBAAsB;AACtB;IACI,gBAAgB;IAChB,UAAU;AACd;;AAEA,sCAAsC;AACtC;IACI,yBAAyB;IACzB,aAAa;IACb,qBAAqB;IACrB,gBAAgB;IAChB,aAAa;IACb,8BAA8B;IAC9B,mBAAmB;AACvB;;AAEA,gDAAgD;AAChD;IACI,6BAA6B;IAC7B,cAAc;;AAElB;;AAEA;IACI,cAAc;IACd,+BAA+B;IAC/B,eAAe;AACnB","sourcesContent":["/* Estilos Generales*/\r\n\r\nbody {\r\n\r\n    font-family:cursive;\r\n    background: #f4f4f4;\r\n    margin: 0;\r\n    padding: 0;\r\n    height: 100vh;\r\n    display: flex;\r\n    justify-content: center;\r\n    align-items: center;\r\n\r\n}\r\n/* Estilos para el contenedor principal*/\r\n#app {\r\n    background-color: white;\r\n    padding: 20px;\r\n    border-radius: 5px;\r\n    box-shadow: 0 0 15px rgba(0, 0, 0,0.1);\r\n\r\n}\r\n\r\n/*Estilos para el formulario*/\r\nform {\r\n    display: flex;\r\n    justify-content: space-between;\r\n}\r\n\r\n/* Estilos al Input*/\r\ninput {\r\n    width: 75%;\r\n    padding: 8px;\r\n    margin-right: 10px;\r\n    border: 1px, solid, #19f0cc;\r\n    border-radius: 3px;\r\n    font-family: cursive;\r\n\r\n}\r\n\r\n/*Estilos al boton*/\r\nbutton {\r\n    padding: 5px, 8px;\r\n    background-color: #06f5cd27;\r\n    color: rgb(100, 98, 98);\r\n    border: none;\r\n    border-radius: 3px;\r\n    cursor: pointer;\r\n}\r\n\r\n/*Estilos de la Lista*/\r\nul {\r\n    list-style: none;\r\n    padding: 0;\r\n}\r\n\r\n/*Estilos a los Elementos de la Lista*/\r\nli {\r\n    background-color: #f4f4f4;\r\n    padding: 10px;\r\n    border: 1px solid#ddd;\r\n    margin-top: 10px;\r\n    display: flex;\r\n    justify-content: space-between;\r\n    align-items: center;\r\n}\r\n\r\n/*estilos para cuando una tarea esta completada*/\r\nli.completed {\r\n    text-decoration: line-through;\r\n    color: #e157b8;\r\n    \r\n}\r\n\r\nh1 {\r\n    color: #19f0cc;\r\n    text-shadow:  1px 1px 2px black;\r\n    font-size: 50px;\r\n}\r\n\r\n"],"sourceRoot":""}]);
 // Exports
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (___CSS_LOADER_EXPORT___);
 

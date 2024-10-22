@@ -1,8 +1,9 @@
 /* Estilos Generales*/
 
 body {
-    font-family: ariel, sans-serif;
-    background-color: #f4f4f4;
+
+    font-family:cursive;
+    background: #f4f4f4;
     margin: 0;
     padding: 0;
     height: 100vh;
@@ -31,15 +32,17 @@ input {
     width: 75%;
     padding: 8px;
     margin-right: 10px;
-    border: 1px, solid, #ddd;
+    border: 1px, solid, #19f0cc;
     border-radius: 3px;
+    font-family: cursive;
+
 }
 
 /*Estilos al boton*/
 button {
     padding: 5px, 8px;
-    background-color: #007bff;
-    color: white;
+    background-color: #06f5cd27;
+    color: rgb(100, 98, 98);
     border: none;
     border-radius: 3px;
     cursor: pointer;
@@ -65,6 +68,13 @@ li {
 /*estilos para cuando una tarea esta completada*/
 li.completed {
     text-decoration: line-through;
-    color: #888;
+    color: #e157b8;
     
 }
+
+h1 {
+    color: #19f0cc;
+    text-shadow:  1px 1px 2px black;
+    font-size: 50px;
+}
+
